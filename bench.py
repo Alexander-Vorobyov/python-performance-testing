@@ -21,4 +21,4 @@ for size in tqdm(sizes):
     outp.loc[len(outp)] = [size, round(end-start, 4)]
     
 outp.to_excel('Bench results.xlsx', index=False)
-print("Done")
+print("Done") 
